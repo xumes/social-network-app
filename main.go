@@ -5,7 +5,12 @@ import (
 	"log"
 	"net/http"
 	"social-app/src/router"
+	"social-app/src/utils"
 )
+
+func init() {
+	utils.LoadTemplates()
+}
 
 func main() {
 	appRouter := router.Generate()
