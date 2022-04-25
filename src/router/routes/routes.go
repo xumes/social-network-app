@@ -16,6 +16,7 @@ type Route struct {
 
 func Config(router *mux.Router) *mux.Router {
 	appRoutes := loginRoute
+	appRoutes = append(appRoutes, userRoutes...)
 
 	fmt.Println("Inside router config")
 

@@ -24,6 +24,7 @@ input {
     display: block;
     background: transparent;
     height: 62px;
+    width: 100%;
     padding: 0 20px 0 38px;
 }
 
